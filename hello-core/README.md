@@ -73,7 +73,7 @@ port = 31875
 kubectl create -f code/subclient/client.yaml
 ```
 运行iot-paaspy，运行之后会创建相关的token，实体，上报属性。
-```bash
+```console
 $ python3 code/iot-paas.py
 
 base entity info
